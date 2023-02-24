@@ -1,0 +1,17 @@
+{
+  "name": "percy-project-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx percy exec -- node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@percy/cli": "^1.20.0",
+    "@percy/selenium-webdriver": "^1.0.2",
+    "chromedriver": "^110.0.0"
+  }
+}
